@@ -13,7 +13,7 @@ const server = http.createServer((request, response) => {
     } else if (request.url === "/contact") {
         response.setHeader("Content-Type", "text/html; charset=utf-8")
         response.end(`
-            <p>Email: <b>Oleg_asv@mail.ru</b></p>
+            <p>Email: <b>https://github.com/anantashanti/Lesson6</b></p>
             <a href="/">На главную</a>
             `);
     } else if (request.url === "/api/info") {
